@@ -144,7 +144,7 @@ The **Database Connector** is a foundational piece of our `OrderSystem`'s backen
 -   **Securely reads configuration details** (like host, user, password) from environment variables.
 -   **Provides a ready-to-use connection object** (`db`) that other parts of our backend can leverage to interact with the database.
 
-Without a working Database Connector, our application cannot store or retrieve any information, making it unable to function. Now that we have a connection to our database, the next step is to understand *how* our controllers (and by extension, the models) use this connection to perform specific operations, like "get all food items" or "create a user." In the next chapter, we'll dive into the [Data Access Layer (Models)](07_data_access_layer__models__), which are the specialized staff who know exactly how to query the database!
+Without a working Database Connector, our application cannot store or retrieve any information, making it unable to function. Now that we have a connection to our database, the next step is to understand *how* our controllers (and by extension, the models) use this connection to perform specific operations, like "get all food items" or "create a user." In the next chapter, we'll dive into the [Data Access Layer (Models)](07_data_access_layer__models__.md), which are the specialized staff who know exactly how to query the database!
 
 ---
 
